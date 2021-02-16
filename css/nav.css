@@ -1,0 +1,35 @@
+
+.dashboard{
+    background-color: #18b5b8;
+    box-shadow: 0 0 0.4em grey;
+    border-radius: 0 0 3.5em 3.5em;
+    margin-top: 20px;
+}
+.dashboard>div{
+    margin: 0.5em 0.2em;
+    padding: 0.2em 0.5em;
+}
+.dashboard img{
+    width:2.33em;
+}
+.dashboard a{
+    font-size: 1.8em;
+    margin: 0.5em 2em;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 0.4em;
+}
+.dashboard .active{
+    color:#0e6c6e;
+    background-color: #c5eced;
+    box-shadow: 0 0 0.4em #80808080 inset;
+}
+.dashboard>a:hover{
+    color:#0e6c6e;
+    background-color: #c5eced;
+    box-shadow: 0 0 0.4em #80808080 inset;
+}
+.dashboard img:hover{
+    -webkit-filter: drop-shadow(0 0 0.4em #808080cc);
+    filter: drop-shadow(0 0 0.4em #808080cc);
+}

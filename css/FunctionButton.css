@@ -1,0 +1,62 @@
+
+/* 左上兩功能鍵樣式 */
+.LittleTool{
+    position: absolute;
+    right: 13%;
+    z-index: 2;
+}
+.LittleTool>div{
+    margin: 0 0.67em;
+}
+#share svg>line{
+    stroke: #18b5b8;
+    stroke-width: 0.2em;
+}
+#share circle{
+    fill:#18b5b8;
+    r:4;
+}
+#share{
+    background: #e0feff;
+    height: 48px;
+    box-shadow: 0 0 0.4em #80808033 inset;
+    cursor: pointer;
+}
+#share:hover{
+    background-color:#18b5b880 ;
+}
+#share:active{background-color:#18b5b8 ;}
+#share:hover line{stroke:#ffffff}
+#share:hover circle{fill:#ffffff}
+
+#FontSizeChange{
+    background: #e0feff;
+    border-radius: 5em;
+    box-shadow: 0 0 0.4em #80808033 inset;
+    font-family: monospace, sans-serif;
+}
+#FontSizeChange>div{
+    cursor: pointer;
+    color: #18b5b8;
+    font-size: 2em;
+    border-radius: 50%;
+    font-weight: 600;
+    position: relative;
+    padding: 4px 14px;
+}
+#FontSizeChange>div:hover{
+    background-color:#18b5b880 ;
+    color: #ffffff;
+    box-shadow: 0 0 0.4em #80808033;
+}
+#FontSizeChange sup{
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    font-size: 50%;
+}
+#FontSizeChange .active{
+    background-color:#18b5b8 ;
+    color: #ffffff;
+    box-shadow: 0 0 0.4em #80808033;
+}

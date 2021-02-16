@@ -6,10 +6,50 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>政府資料傳輸平臺服務網</title>
     <style>
-        
+        @import url(./css/index.css);
+        @import url(./css/nav.css);
+        @import url(./css/common.css);
+        @import url(./css/FunctionButton.css);
+        @font-face {
+            font-family: DFHeiMedium-B5;
+            src: url(./DFHeiMedium-B5\(P\)-UN.TTF);
+        }
     </style>
 </head>
 <body>
-    <div class="container">sss</div>
+    <div class="LittleTool flex">
+        <div id="share" class="circle">
+            <svg width=48 height=48>
+                <circle cx=32 cy=16 r=5></circle>
+                <line x1=32 y1=16 x2=16 y2=24></line>
+                <circle cx=16 cy=24 r=5></circle>
+                <line x1=16 y1=24 x2=32 y2=33></line>
+                <circle cx=32 cy=33 r=5></circle>
+            </svg>
+        </div>
+        <div id="FontSizeChange" class="flex">
+            <div data-PageSize="m" onclick="SizeChange(this)">A<sup>-</sup></div>
+            <div data-PageSize="n" onclick="SizeChange(this)" class="active">A<sup></sup></div>
+            <div data-PageSize="l" onclick="SizeChange(this)">A<sup>+</sup></div>
+        </div>
+        <script src="./js/FunctionButton.js"></script>
+    </div>
+    <nav>
+        <div>
+            <h1>政府資料傳輸平台服務網</h1>
+        </div>
+        <div class="dashboard flex">
+            <div><a href="./post.html?page=1"><img src="./img/home.png" alt=""></a></div>
+            <a href="./post.html?page=1"><span>公告訊息</span></a>
+            <a href="./import-step.html"><span>導入步驟</span></a>
+            <a href="ssss.html"><span>服務清單</span></a>
+            <a href="./application.html"><span>申請登記</span></a>
+            <a href="./download.html?type=learning&page=1"><span>下載專區</span></a>
+        </div>
+    </nav>
+    <main>
+        <img src="./img/slider-Vattensoft-xl.png" alt="">
+        <a><button class="enter">進入網站<img src="./img/arrow.png"></button></a>
+    </main>
 </body>
 </html>

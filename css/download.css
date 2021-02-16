@@ -1,0 +1,35 @@
+main.download{
+    width: 60%;
+}
+a.hint img{
+    width: 1.67em;
+    transform: translate(0.83em, 0);
+}
+a.hint{
+    padding: 0.23em 1em;
+    font-size: 1.67em;
+}
+a.hint:hover{
+    background-color: #0e6c6ecc;
+    color: #ffffff;
+}
+a.hint:active{
+    background-color: #0e6c6e;
+}
+a.active{
+    background-color: #0e6c6e;
+}
+.download .col{
+    width: 75%;
+    font-size: 1.5em;
+}
+.download>div{
+    margin: 1em;
+    justify-content: unset;
+}
+.download>div:nth-child(1){
+    margin: 3em 0 1em;
+}
+.download .hint{
+    margin: 0 1em;
+}

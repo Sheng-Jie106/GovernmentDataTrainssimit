@@ -1,0 +1,96 @@
+/* 導入步驟 */
+.step{
+    text-align: center;
+    color:#ffffff;
+    font-size: 1.5em;
+}
+.step>div{
+    margin: 1em 2em 0.67em;
+}
+.step1>div, .step2>div, .step3>div{
+    box-shadow: 0 0 0.4em #80808080;
+}
+.step .title{
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+}
+.title, .detail{
+    position: relative;
+}
+.title>div, .detail>div{
+    transform: translate(50%,-50%);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    white-space: nowrap;
+}
+.step .tag{
+    border-radius: 10em;
+    position: relative;
+    top: 1.4em;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 0.5em 1.5em;
+    width: max-content;
+}
+.step .detail{
+    border-radius: 1em;
+    color:#595757;
+    width: 20em;
+    height: 14em;
+    line-height: 1.67em;
+}
+.step hr{
+    margin: 0.25em auto;
+    height: 0.125em;
+}
+.step2 .detail>div, .step3 .detail>div{
+    text-align: left;
+}
+.step img{
+    width: 1.33em;
+}
+.step img:hover{
+    -webkit-filter: drop-shadow(0 0 0.4em #80808080);
+    filter: drop-shadow(0 0 0.4em #80808080);
+}
+/* 設定個步驟底色 */
+.step1 .title, .step1 .tag{
+    background-color: #5ea2a3;
+}
+.step1 .detail{
+    background-color: #5ea2a34d;
+}
+.step2 .title, .step2 .tag{
+    background-color: #18b5b8;
+}
+.step2 .detail{
+    background-color: #18b5b84d;
+}
+.step3 .title, .step3 .tag{
+    background-color: #0e6c6e;
+}
+.step3 .detail{
+    background-color: #0e6c6e4d;
+}
+
+/* 底部 */
+.bottom-line{
+    margin: 0.67em auto 2em;
+    width: 65%;
+    border-width: 0.5em;
+    border: 0.4em solid #18b5b8;
+    border-top: none;
+    height: 2em;
+    border-radius: 0.3em;
+}
+.footer{
+    color:#595757 ;
+    text-align: center;
+    font-size: 1.5em;
+}
+.import-step .hint{
+    margin: 1em auto 2.5em;
+}

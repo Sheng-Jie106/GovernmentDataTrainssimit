@@ -1,0 +1,25 @@
+main img{
+    width: 100%;
+}
+.enter{
+    background-color: aqua;
+    border-radius: 5em;
+    font-size: 2em;
+    margin: 0.67em auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    padding: 4px 24px;
+    border: none;
+    box-shadow: 0 0 0.4em #80808080;
+    background: #0e6c6e;
+    color: #ffffff;
+}
+.enter:hover{
+    box-shadow: 0 0 0.4em #808080;
+}
+.enter img{
+    width: 1.5em;
+    transform: translate(2px, -3px);
+    margin-right: -10px;
+}

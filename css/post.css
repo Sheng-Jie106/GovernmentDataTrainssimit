@@ -1,0 +1,20 @@
+.post-hr{
+    height: 0.45em;
+    background-color: #595757;
+    width: 99.6%;
+    margin-bottom: 0;
+}
+article{
+    box-shadow: 0 0 0.4em #80808033;
+}
+article:nth-child(odd){
+    background-color: #f7f8f8;
+}
+article>div{
+    font-size: 1.67em;
+    padding:1.33em 1.67em;
+    text-align: center;
+}
+.post-content{
+    width: 67%;
+}
