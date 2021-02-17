@@ -6,11 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>政府資料傳輸平臺服務網</title>
     <style>
-        @import url(./css/index.css);
+        @import url(./css/download.css);
         @import url(./css/nav.css);
         @import url(./css/common.css);
         @import url(./css/FunctionButton.css);
-        @import url(./css/download.css);
+        @import url(./css/rwd/navRWD.css);
+        @import url(./css/rwd/commonRWD.css);
         @font-face {
             font-family: DFHeiMedium-B5;
             src: url(./DFHeiMedium-B5\(P\)-UN.TTF);
@@ -19,7 +20,7 @@
 </head>
 <body>
     <div class="LittleTool flex">
-        <div id="share" class="circle" onclick="getUrl()">
+        <div id="share" class="circle">
             <svg width=48 height=48>
                 <circle cx=32 cy=16 r=5></circle>
                 <line x1=32 y1=16 x2=16 y2=24></line>
@@ -34,12 +35,14 @@
             <div data-PageSize="l" onclick="SizeChange(this)">A<sup>+</sup></div>
         </div>
         <script src="./js/FunctionButton.js"></script>
+        <script src="./js/navRWD.js"></script>
     </div>
     <nav>
         <div>
             <h1>政府資料傳輸平台服務網</h1>
         </div>
         <div class="dashboard flex">
+            <a onclick="menu(this)" data-status="close" class="menu-btn"><span>主選單</span><img src="./img/whiteTriangle.png" id="arrow" alt=""></a>
             <div><a href="./post.html?page=1"><img src="./img/home.png" alt=""></a></div>
             <a href="./post.html?page=1"><span>公告訊息</span></a>
             <a href="./import-step.html"><span>導入步驟</span></a>

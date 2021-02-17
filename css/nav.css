@@ -4,13 +4,16 @@
     box-shadow: 0 0 0.4em grey;
     border-radius: 0 0 3.5em 3.5em;
     margin-top: 20px;
+    overflow: hidden;
+    transition-duration:0.5s ;
 }
 .dashboard>div{
     margin: 0.5em 0.2em;
     padding: 0.2em 0.5em;
 }
 .dashboard img{
-    width:2.33em;
+    width:2em;
+    transition-duration: 0.5s;
 }
 .dashboard a{
     font-size: 1.8em;
@@ -32,4 +35,11 @@
 .dashboard img:hover{
     -webkit-filter: drop-shadow(0 0 0.4em #808080cc);
     filter: drop-shadow(0 0 0.4em #808080cc);
+}
+.menu-btn{
+    display: none;
+}
+.menu-btn img{
+    width: 1em;
+    margin: -0.25em 0.25em 0;
 }

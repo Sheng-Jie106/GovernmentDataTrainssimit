@@ -10,11 +10,17 @@ article{
 article:nth-child(odd){
     background-color: #f7f8f8;
 }
+article.flex{
+    justify-content: normal ;
+}
 article>div{
     font-size: 1.67em;
     padding:1.33em 1.67em;
-    text-align: center;
 }
 .post-content{
     width: 67%;
+}
+.date{
+    text-align: right;
+    width: 23%;
 }

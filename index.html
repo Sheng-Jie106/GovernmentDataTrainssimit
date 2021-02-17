@@ -10,6 +10,8 @@
         @import url(./css/nav.css);
         @import url(./css/common.css);
         @import url(./css/FunctionButton.css);
+        @import url(./css/rwd/navRWD.css);
+        @import url(./css/rwd/commonRWD.css);
         @font-face {
             font-family: DFHeiMedium-B5;
             src: url(./DFHeiMedium-B5\(P\)-UN.TTF);
@@ -33,23 +35,25 @@
             <div data-PageSize="l" onclick="SizeChange(this)">A<sup>+</sup></div>
         </div>
         <script src="./js/FunctionButton.js"></script>
+        <script src="./js/navRWD.js"></script>
     </div>
     <nav>
         <div>
             <h1>政府資料傳輸平台服務網</h1>
         </div>
         <div class="dashboard flex">
+            <a onclick="menu(this)" data-status="close" class="menu-btn"><span>主選單</span><img src="./img/whiteTriangle.png" id="arrow" alt=""></a>
             <div><a href="./post.html?page=1"><img src="./img/home.png" alt=""></a></div>
             <a href="./post.html?page=1"><span>公告訊息</span></a>
             <a href="./import-step.html"><span>導入步驟</span></a>
-            <a href="ssss.html"><span>服務清單</span></a>
+            <a href=""><span>服務清單</span></a>
             <a href="./application.html"><span>申請登記</span></a>
             <a href="./download.html?type=learning&page=1"><span>下載專區</span></a>
         </div>
     </nav>
     <main>
         <img src="./img/slider-Vattensoft-xl.png" alt="">
-        <a><button class="enter">進入網站<img src="./img/arrow.png"></button></a>
+        <a href="./post.html"><button class="enter">進入網站<img src="./img/arrow.png"></button></a>
     </main>
 </body>
 </html>

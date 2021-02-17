@@ -6,10 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>政府資料傳輸平臺服務網</title>
     <style>
+        @import url(./css/post.css);
         @import url(./css/nav.css);
         @import url(./css/common.css);
-        @import url(./css/post.css);
         @import url(./css/FunctionButton.css);
+        @import url(./css/rwd/navRWD.css);
+        @import url(./css/rwd/commonRWD.css);
         @font-face {
             font-family: DFHeiMedium-B5;
             src: url(./DFHeiMedium-B5\(P\)-UN.TTF);
@@ -33,12 +35,14 @@
             <div data-PageSize="l" onclick="SizeChange(this)">A<sup>+</sup></div>
         </div>
         <script src="./js/FunctionButton.js"></script>
+        <script src="./js/navRWD.js"></script>
     </div>
     <nav>
         <div>
             <h1>政府資料傳輸平台服務網</h1>
         </div>
         <div class="dashboard flex">
+            <a onclick="menu(this)" data-status="close" class="menu-btn"><span>主選單</span><img src="./img/whiteTriangle.png" id="arrow" alt=""></a>
             <div><a href="./post.html?page=1"><img src="./img/home.png" alt=""></a></div>
             <a href="./post.html?page=1" class="active"><span>公告訊息</span></a>
             <a href="./import-step.html"><span>導入步驟</span></a>
@@ -71,11 +75,11 @@
             <div class="date">2021-02-27</div>
         </article>
         <div class="page-num flex">
-            <a href="./download.html?type=learning&page=1" class="active"><span>1</span></a>
-            <a href="./download.html?type=learning&page=2"><span class="active">2</span></a>
-            <a href="./download.html?type=learning&page=3"><span>3</span></a>
-            <a href="./download.html?type=learning&page=4"><span>...</span></a>
-            <a href="./download.html?type=learning&page=10"><span>10</span></a>
+            <a href="./post.html?page=1" class="active"><span>1</span></a>
+            <a href="./post.html?page=2"><span class="active">2</span></a>
+            <a href="./post.html?page=3"><span>3</span></a>
+            <a href="./post.html?page=4"><span>...</span></a>
+            <a href="./post.html?page=10"><span>10</span></a>
         </div>
     </main>
 </body>

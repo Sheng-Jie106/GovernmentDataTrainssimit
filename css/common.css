@@ -19,6 +19,7 @@ h2{
     text-align: right;
     color:#18b5b8;
     margin-top:0 ;
+    margin-right: 11%;
     font-size: 2em;
 }
 a:hover, a:focus{
@@ -41,7 +42,6 @@ a:hover, a:focus{
     font-size: 1.33em; 
     color: #18b5b8; 
     margin: -7px;
-    font-weight: 600;
 }
 .tag>img{
     width: 2em;

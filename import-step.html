@@ -6,10 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <title>政府資料傳輸平臺服務網</title>
     <style>
+        @import url(./css/import-step.css);
         @import url(./css/nav.css);
         @import url(./css/common.css);
         @import url(./css/FunctionButton.css);
-        @import url(./css/import-step.css);
+        @import url(./css/rwd/navRWD.css);
+        @import url(./css/rwd/commonRWD.css);
         @font-face {
             font-family: DFHeiMedium-B5;
             src: url(./DFHeiMedium-B5\(P\)-UN.TTF);
@@ -33,12 +35,14 @@
             <div data-PageSize="l" onclick="SizeChange(this)">A<sup>+</sup></div>
         </div>
         <script src="./js/FunctionButton.js"></script>
+        <script src="./js/navRWD.js"></script>
     </div>
     <nav>
         <div>
             <h1>政府資料傳輸平台服務網</h1>
         </div>
         <div class="dashboard flex">
+            <a onclick="menu(this)" data-status="close" class="menu-btn"><span>主選單</span><img src="./img/whiteTriangle.png" id="arrow" alt=""></a>
             <div><a href="./post.html?page=1"><img src="./img/home.png" alt=""></a></div>
             <a href="./post.html?page=1"><span>公告訊息</span></a>
             <a href="./import-step.html" class="active"><span>導入步驟</span></a>
@@ -82,16 +86,16 @@
                 <div class="detail">
                     <div>
                         <div>
-                            <span>2-1 </span>申請GSN-VPN線路 <img src="./img/export.png" alt="">
+                            <span>2-1 </span>申請GSN-VPN線路 <a href=""><img src="./img/export.png" alt=""></a>
                         </div>
                         <div>
-                            <span>2-2 </span>申請網域名稱 <img src="./img/export.png" alt="">
+                            <span>2-2 </span>申請網域名稱 <a href=""><img src="./img/export.png" alt=""></a>
                         </div>
                         <div>
-                            <span>2-3 </span>申請T-Road專用SSL類憑證 <img src="./img/export.png" alt="">
+                            <span>2-3 </span>申請T-Road專用SSL類憑證 <a href=""><img src="./img/export.png" alt=""></a>
                         </div>
                         <div>
-                            <span>2-4 </span>申請GCA專屬類憑證 <img src="./img/export.png" alt="">
+                            <span>2-4 </span>申請GCA專屬類憑證 <a href=""><img src="./img/export.png" alt=""></a>
                         </div>
                     </div>
                 </div>

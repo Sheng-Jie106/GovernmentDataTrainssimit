@@ -1,0 +1,47 @@
+/* 功能鍵 */
+@media(max-width:1340px){
+    .dashboard a{
+        margin: 0.5em 1em;
+    }
+    .LittleTool{
+        right: 10%;
+    }
+}
+@media(max-width:900px){
+    .dashboard a{
+        margin: 0.5em;
+    }
+    .LittleTool{
+        position: fixed;
+        top:45%;
+        left: 0%;
+        right: auto;
+        display: block;
+    }
+    .LittleTool>div{
+        margin: 0.67em;
+    }
+    #FontSizeChange{
+        display: block;
+    }
+}
+@media(max-width:700px){
+    .dashboard a{
+        margin: 0em;
+    }
+}
+@media(max-width:576px){
+    .dashboard{
+        display: grid;
+        text-align: center;
+        border-radius: 1em;
+    }
+    .menu-btn{
+        display: block !important;
+        background-color: #18b5b8;
+    }
+    .menu-btn:hover{
+        background-color: #0e6c6e !important;
+        color: #ffffff !important;
+    }
+}

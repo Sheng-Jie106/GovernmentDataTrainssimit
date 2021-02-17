@@ -2,7 +2,7 @@
 /* 左上兩功能鍵樣式 */
 .LittleTool{
     position: absolute;
-    right: 13%;
+    right: 14%;
     z-index: 2;
 }
 .LittleTool>div{
@@ -42,7 +42,7 @@
     border-radius: 50%;
     font-weight: 600;
     position: relative;
-    padding: 4px 14px;
+    padding:0.25em 0.69em;
 }
 #FontSizeChange>div:hover{
     background-color:#18b5b880 ;
