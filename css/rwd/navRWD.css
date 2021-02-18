@@ -10,6 +10,7 @@
 @media(max-width:900px){
     .dashboard a{
         margin: 0.5em;
+        font-size: 1.5em;
     }
     .LittleTool{
         position: fixed;
@@ -23,6 +24,9 @@
     }
     #FontSizeChange{
         display: block;
+    }
+    #share{
+        height: auto;
     }
 }
 @media(max-width:700px){

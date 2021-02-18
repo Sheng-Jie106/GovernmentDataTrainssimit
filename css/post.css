@@ -1,11 +1,20 @@
 .post-hr{
     height: 0.45em;
     background-color: #595757;
-    width: 99.6%;
+    width: 100%;
     margin-bottom: 0;
+}
+main.post-content{
+    width: 50%;
 }
 article{
     box-shadow: 0 0 0.4em #80808033;
+}
+article a{
+    color: #337ab7;
+}
+article a:hover{
+    color: #23527c;
 }
 article:nth-child(odd){
     background-color: #f7f8f8;
@@ -16,11 +25,40 @@ article.flex{
 article>div{
     font-size: 1.67em;
     padding:1.33em 1.67em;
+    line-height: 1.67em;
 }
-.post-content{
-    width: 67%;
+h2{
+    text-align: right;
+    color:#18b5b8;
+    margin-top:0 ;
+    margin-right: 1%;
+    font-size: 2em;
+}
+.content{
+    width: 35em;
+    margin: 0 1em;
 }
 .date{
     text-align: right;
-    width: 23%;
+}
+
+/* 公告內容頁 */
+.content-title, .post-content .date{
+    width: 50%;
+    font-size: 1.2em;
+}
+.post-content .date{
+    padding-right:3% ;
+}
+main.post-content article{
+    padding: 2em;
+    text-align: left;
+    background-color: #fff;
+}
+.post-content h2{
+    margin-right: 7%;
+}
+.post-content article{
+    margin-bottom: 5em;
+    box-shadow: 0 0 0.4em #80808080;
 }

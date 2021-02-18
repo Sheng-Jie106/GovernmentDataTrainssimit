@@ -1,13 +1,11 @@
-main.download{
-    width: 60%;
-}
 a.hint img{
     width: 1.67em;
-    transform: translate(0.83em, 0);
+    transform: translate(0.83em, -0.09em);
 }
 a.hint{
     padding: 0.23em 1em;
     font-size: 1.67em;
+    line-height: 1.67em;
 }
 a.hint:hover{
     background-color: #0e6c6ecc;
@@ -20,7 +18,7 @@ a.active{
     background-color: #0e6c6e;
 }
 .download .col{
-    width: 75%;
+    width: 70%;
     font-size: 1.5em;
 }
 .download>div{

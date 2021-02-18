@@ -1,6 +1,9 @@
 main img{
     width: 100%;
 }
+main.index{
+    width: 80%;
+}
 .enter{
     background-color: aqua;
     border-radius: 5em;

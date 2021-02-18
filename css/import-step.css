@@ -1,4 +1,7 @@
 /* 導入步驟 */
+main.import-step{
+    width: max-content;
+}
 .step{
     text-align: center;
     color:#ffffff;

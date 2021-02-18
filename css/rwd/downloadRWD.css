@@ -1,0 +1,11 @@
+@media(max-width:576px){
+    main.download{
+        width: 90%;
+    }
+    .download .col{
+        width: 100%;
+    }
+    .download>div:nth-child(2) a.hint{
+        margin: 0.33em 1em;
+    }
+}

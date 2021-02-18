@@ -4,7 +4,7 @@ body{
     /* position: relative; */
 }
 main{
-    width: 80%;
+    width: max-content;
     margin: 0 auto;
 }
 nav{
@@ -14,13 +14,6 @@ h1{
     text-align: center;
     font-size: 3em;
     color: #595757;
-}
-h2{
-    text-align: right;
-    color:#18b5b8;
-    margin-top:0 ;
-    margin-right: 11%;
-    font-size: 2em;
 }
 a:hover, a:focus{
     text-decoration: none;
@@ -36,7 +29,7 @@ a:hover, a:focus{
     border-radius: 50%;
 }
 .tag{
-    margin-left: 13%;
+    transform: translate(0.1em, -0.095em);
 }
 .tag span{
     font-size: 1.33em; 

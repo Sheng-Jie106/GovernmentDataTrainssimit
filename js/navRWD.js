@@ -26,7 +26,7 @@ function menu(obj){
     var menu=document.getElementsByClassName("menu-btn")[0];
     var arrow=document.getElementById("arrow");
     if(status==="close"){
-        dash.style.height=354+"px";
+        dash.style.height=285+"px";
         arrow.style.transform="rotate(180deg)";
         obj.setAttribute("data-status","open")
     }

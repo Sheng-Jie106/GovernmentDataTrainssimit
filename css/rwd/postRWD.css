@@ -1,0 +1,59 @@
+/* 公告頁 */
+@media(max-width:900px){
+    main.post{
+        width: 90%;
+    }
+    .content{
+        width: 70%;
+    }
+}
+@media(max-width:530px){
+    .content{
+        width: 65%;
+    }
+}
+
+/* 公告內容頁 */
+@media(max-width:1200px){
+    main.post-content{
+        width: 60%;
+    }
+}
+@media(max-width:900px){
+    h2{
+        margin-right:7% ;
+    }
+@media(max-width:768px){
+    main.post-content{
+        width: 80%;
+    }
+    article>div{
+        padding: 1.33em 0.67em;
+    }
+    h2{
+        margin-right:4% ;
+    }
+}
+@media(max-width:576px){
+    article>div{
+        padding: 0.33em;
+    }
+    h2{
+        margin-right:0 ;
+        font-size: 1.5em;
+    }
+    .post-content .date{
+        padding-right: 0;
+    }
+}
+@media(max-width:500px){
+    .date{
+        width: 18%;
+    }
+    .post-content .date, .content-title{
+        font-size: 1em;
+    }
+    .detail{
+        font-size: 1.5em;
+    }
+}
