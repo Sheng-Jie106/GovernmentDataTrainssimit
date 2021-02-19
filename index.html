@@ -54,8 +54,18 @@
         </div>
     </nav>
     <main class="index">
-        <img src="./img/slider-Vattensoft-xl.png" alt="">
+        <img id="indexImg" src="./img/slider-Vattensoft-xl.png" alt="">
         <a href="./post.html"><button class="enter">進入網站<img src="./img/arrow.png"></button></a>
+        <script>
+            var wid=window.screen.width;
+            var img=document.getElementById("indexImg")
+            if(wid<576){
+                img.src="./img/slider-Vattensoft-sm.png";
+            }
+            else{
+                img.src="./img/slider-Vattensoft-xl.png";
+            }
+        </script>
     </main>
 </body>
 </html>

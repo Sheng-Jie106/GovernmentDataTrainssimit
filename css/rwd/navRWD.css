@@ -37,6 +37,9 @@
         text-align: center;
         border-radius: 0 0 1em 1em;
     }
+    .dashboard a{
+        border-radius: 0 0 0.6em 0.6em;
+    }
     .menu-btn{
         display: block !important;
         background-color: #0e6c6e !important;

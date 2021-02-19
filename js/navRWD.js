@@ -19,7 +19,7 @@ window.onload=function(){
 window.onresize=function(){
     dashboard();
 }
-function dashboard(wid){
+function dashboard(){
     var wid=window.screen.width;
     var dash=document.getElementsByClassName("dashboard")[0];
     var html=document.getElementsByTagName("html")[0];
@@ -51,3 +51,4 @@ function menu(obj){
         obj.setAttribute("data-status","close")
     }
 }
+
