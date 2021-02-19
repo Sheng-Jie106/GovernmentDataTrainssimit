@@ -44,7 +44,7 @@ main.import-step{
     width: 20em;
     height: 14em;
     line-height: 1.67em;
-    overflow: scroll;
+    overflow: auto;
 }
 .step hr{
     margin: 0.25em auto;

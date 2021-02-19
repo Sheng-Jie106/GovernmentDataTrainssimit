@@ -5,6 +5,16 @@
 }
 @media(max-width:350px){
     .step .detail{
-        width: 15em;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .step>div{
+        margin: 1em 0;
+        width: 100%;
+    }
+}
+@media(max-width:235px){
+    .step .tag {
+        width: auto;
     }
 }
