@@ -70,13 +70,12 @@ form span{
 input:checked~.checkmark::after{
     display: block;
 }
-#adv input, #ins input, #SSc input, #oth input{
-    width: 100%;
+#adv input, #ins input, #SSc input, #oth input, textarea{
+    width: 97%;
 }
 textarea{
     border:none;
     resize: none;
-    width: 100%;
 }
 .EPL{
     margin-left: 0.67em;
