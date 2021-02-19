@@ -61,44 +61,44 @@
         <form action="">
             <div class="hint">申請登記</div>
             <div class="flex applicant ali-it-top">
-                <div class=" w30"><span>* </span>申請人</div>
-                <div class="w70">
+                <div class=" input-title"><span>* </span>申請人</div>
+                <div class="input">
                     <div class="flex two-col">
-                        <input class="col" type="text" required placeholder="機關"> 
-                        <input class="col" type="text" required placeholder="單位">
+                        <input class="col" type="text" required placeholder="機關" name="agency"> 
+                        <input class="col" type="text" required placeholder="單位" name="unit">
                     </div>
                     <div class="flex three-col">
-                        <input class="col" type="text" required placeholder="科室"> 
-                        <input class="col" type="text" required placeholder="職稱">
-                        <input class="col" type="text" required placeholder="姓名">
+                        <input class="col" type="text" required placeholder="科室" name="office"> 
+                        <input class="col" type="text" required placeholder="職稱" name="job_title">
+                        <input class="col" type="text" required placeholder="姓名" name="name">
                     </div>
                 </div>
                 <div class=flex></div>
             </div>
             <div class="flex contact ali-it-top">
-                <div class=" w30"><span>* </span>聯絡方式</div>
-                <div class="flex two-col w70">
-                    <input class="col" type="text" required placeholder="電話"> 
-                    <input class="col" type="text" required placeholder="電子郵件">
+                <div class=" input-title"><span>* </span>聯絡方式</div>
+                <div class="flex two-col input">
+                    <input class="col" type="text" required placeholder="電話" name="tel"> 
+                    <input class="col" type="email" required placeholder="電子郵件" name="email">
                 </div>
             </div>
             <div class="flex option ali-it-top">
-                <div class=" w30"><span>* </span>申請選項勾選<p>(可複選)</p></div>
-                <div class="flex two-col w70">
-                    <label class="col" for="advice">輔導上限申請
-                        <input type="checkbox" name="advice" id="advice" data-url="adv" onclick="check(this)">
+                <div class=" input-title"><span>* </span>申請選項勾選<p>(可複選)</p></div>
+                <div class="flex two-col input">
+                    <label class="col" for="advice">輔導上限申請 
+                        <input type="checkbox" id="advice" data-url="adv" onclick="check(this)">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="col" for="install">安裝包申請
-                        <input type="checkbox" name="install" id="install" data-url="ins" onclick="check(this)">
+                    <label class="col" for="install">安裝包申請 
+                        <input type="checkbox" id="install" data-url="ins" onclick="check(this)">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="col" for="SScode">SS源碼申請
-                        <input type="checkbox" name="SScode" id="SScode" data-url="SSc" onclick="check(this)">
+                    <label class="col" for="SScode">SS源碼申請 
+                        <input type="checkbox" id="SScode" data-url="SSc" onclick="check(this)">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="col" for="other">其他諮詢
-                        <input type="checkbox" name="other" id="other" data-url="oth" onclick="check(this)">
+                    <label class="col" for="other">其他諮詢 
+                        <input type="checkbox" id="other" data-url="oth" onclick="check(this)">
                         <span class="checkmark"></span>
                     </label>
                 </div>

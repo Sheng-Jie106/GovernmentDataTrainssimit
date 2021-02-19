@@ -1,8 +1,20 @@
 // dashboard 
 window.onload=function(){
-    var html=document.getElementsByTagName("html");
-    html[0].style.zoom="75%";
+    var html=document.getElementsByTagName("html")[0];
+    html.style.zoom="75%";
     dashboard();
+    // html.addEventListener("overflow",()=>{
+    //     var aside=document.getElementsByTagName("aside")[0];
+    //     if(aside.getAttribute("data-status")==="none"){
+    //         aside.style.display="block";
+    //         aside.setAttribute("data-status","display");
+    //     }
+    //     else{
+    //         aside.style.display="display";
+    //         aside.setAttribute("data-status","block");
+    //     }
+        
+    // },false)
 }
 window.onresize=function(){
     dashboard();
@@ -10,14 +22,17 @@ window.onresize=function(){
 function dashboard(wid){
     var wid=window.screen.width;
     var dash=document.getElementsByClassName("dashboard")[0];
+    var html=document.getElementsByTagName("html")[0];
     if(wid<576){
         var menu=document.getElementsByClassName("menu-btn")[0];
+        dash.style.width=html.offsetWidth+"px";
         menu.style.width=dash.offsetWidth+"px";
         dash.style.height=menu.offsetHeight+"px";
         // console.log(dash.offsetHeight)
     }
     else{
         dash.style.height="auto";
+        dash.style.width="auto";
     }
 }
 function menu(obj){
@@ -26,7 +41,7 @@ function menu(obj){
     var menu=document.getElementsByClassName("menu-btn")[0];
     var arrow=document.getElementById("arrow");
     if(status==="close"){
-        dash.style.height=285+"px";
+        dash.style.height=287+"px";
         arrow.style.transform="rotate(180deg)";
         obj.setAttribute("data-status","open")
     }

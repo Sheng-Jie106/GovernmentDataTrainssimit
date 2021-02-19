@@ -2,4 +2,45 @@
     main.application{
         width: 90%;
     }
+    .input-title{
+        width: 20%;
+    }
+    .input{
+        width: 80%;
+    }
+
+}
+@media(max-width:768px){
+    .two-col input[type="text"], .two-col input[type="email"]{
+        width: auto;
+    }
+    .two-col, .three-col{
+        justify-content: normal;
+    }
+    .three-col input{
+        width: auto;
+    }
+    label{
+        width: auto;
+    }
+}
+@media(max-width:665px){
+    .input{
+        width: 40%;
+    }
+    .input-title{
+        width: auto;
+    }
+}
+@media(max-width:576px){
+    .ali-it-top.ali-it-top{
+        width: 80%;
+        margin: 1em auto;
+    }
+    .input, .two-col input[type="email"], .two-col input[type=text], .three-col input{
+        width: auto;
+    }
+    .col{
+        margin: 0.5em auto;
+    }
 }

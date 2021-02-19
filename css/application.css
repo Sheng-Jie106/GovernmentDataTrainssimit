@@ -1,21 +1,18 @@
-aside img{
-    width: 8em;
-    position: fixed;
-    top: 85%;
-    right: 5%;
-    z-index: 3;
+main.application{
+    margin-bottom: 20em;
 }
 form{
     font-size: 1.5em;
     color: #595757;
     
 }
-input[type=text]{
+input{
     border: none;
 }
 input[type=checkbox]{
     position: absolute;
     width: 0;
+    visibility: hidden;
 }
 label{
     width: 47%;
@@ -29,15 +26,15 @@ form>div{
 form span{
     color:red;
 }
-.w30{
+.input-title{
     width: 30%;
     text-align: center;
     padding: 0.67em;
 }
-.w70{
+.input{
     width: 70%;
 }
-.two-col input[type=text]{
+.two-col input[type=text], .two-col input[type="email"]{
     width: 47%;
 }
 .three-col input{
@@ -53,6 +50,7 @@ form span{
     box-shadow: 0 0 0.4em #80808033;
     float: right;
     position: relative;
+    margin-left: 2em;
 }
 .checkmark::after{
     -webkit-transform: rotate(45deg);
@@ -88,7 +86,7 @@ textarea{
 }
 button.hint {
     border: none;
-    margin-left:90% !important;
+    float:right;
 }
 .ali-it-top.ali-it-top{
     align-items: normal;

@@ -22,3 +22,9 @@ function SizeChange(obj){
         }
     }
 }
+
+// 當縱滾輪出現時，置頂按鍵出現
+function toTop(){
+    var aside=document.getElementsByTagName("aside")[0];
+        aside.style.display="block";
+}

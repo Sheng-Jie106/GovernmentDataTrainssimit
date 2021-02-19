@@ -10,7 +10,7 @@ function ajax(file, id){
 function check(obj){
     var id=obj.getAttribute("data-url")
     if(obj.checked === true)
-        ajax(obj.name,id)
+        ajax(obj.id,id)
     else
         document.getElementById(id).innerHTML=""
 }

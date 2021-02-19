@@ -25,9 +25,6 @@
     #FontSizeChange{
         display: block;
     }
-    #share{
-        height: auto;
-    }
 }
 @media(max-width:700px){
     .dashboard a{
@@ -38,14 +35,14 @@
     .dashboard{
         display: grid;
         text-align: center;
-        border-radius: 1em;
+        border-radius: 0 0 1em 1em;
     }
     .menu-btn{
         display: block !important;
-        background-color: #18b5b8;
+        background-color: #0e6c6e !important;
     }
     .menu-btn:hover{
-        background-color: #0e6c6e !important;
         color: #ffffff !important;
+        background-color: #0e6c6e !important;
     }
 }

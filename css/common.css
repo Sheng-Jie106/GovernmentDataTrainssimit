@@ -1,4 +1,3 @@
-
 body{
     font-family: DFHeiMedium-B5, 微軟正黑體!important;
     /* position: relative; */
@@ -25,9 +24,12 @@ a:hover, a:focus{
     justify-content: center;
     align-items: center;
 }
+
 .circle{
     border-radius: 50%;
 }
+
+/* 小標籤樣式 */
 .tag{
     transform: translate(0.1em, -0.095em);
 }
@@ -39,6 +41,8 @@ a:hover, a:focus{
 .tag>img{
     width: 2em;
 }
+
+/* 小標題樣式 */
 .hint{
     background-color: #18b5b8;
     color: #fff;
@@ -48,6 +52,8 @@ a:hover, a:focus{
     box-shadow: 0 0 0.4em #80808080;
     font-size: 1.5em;
 }
+
+/* 文字條樣式 */
 .col{
     font-weight: 500;
     background: #efefef;
@@ -60,6 +66,8 @@ a:hover, a:focus{
 .date, .page-num>span{
     font-family: DFHeiMedium-B5, monospace, sans-serif;
 }
+
+/* 頁碼按鈕 */
 .page-num {
     margin: 2em auto;
     justify-content: center !important;
@@ -84,3 +92,16 @@ a:hover, a:focus{
     background-color: #18b5b880;
     color:#ffffff;
 }
+
+/* 置頂按鍵 */
+aside img{
+    width: 8em;
+    position: fixed;
+    top: 85%;
+    right: 5%;
+    z-index: 3;
+}
+aside{
+    display: none;
+}
+@media
