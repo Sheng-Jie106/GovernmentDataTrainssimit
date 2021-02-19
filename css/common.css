@@ -102,6 +102,6 @@ aside img{
     z-index: 3;
 }
 aside{
-    display: none;
+    /* display: none; */
 }
-@media
+/* @media */
