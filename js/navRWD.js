@@ -3,7 +3,7 @@ window.onload=function(){
     var html=document.getElementsByTagName("html")[0];
     html.style.zoom="75%";
     dashboard();
-    alert(html.style.zoom,window.screen.width)
+    alert(html.style.zoom+" "+window.screen.width)
 }
 window.onresize=function(){
     dashboard();
