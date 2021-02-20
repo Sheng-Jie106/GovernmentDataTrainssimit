@@ -3,18 +3,6 @@ window.onload=function(){
     var html=document.getElementsByTagName("html")[0];
     html.style.zoom="75%";
     dashboard();
-    // html.addEventListener("overflow",()=>{
-    //     var aside=document.getElementsByTagName("aside")[0];
-    //     if(aside.getAttribute("data-status")==="none"){
-    //         aside.style.display="block";
-    //         aside.setAttribute("data-status","display");
-    //     }
-    //     else{
-    //         aside.style.display="display";
-    //         aside.setAttribute("data-status","block");
-    //     }
-        
-    // },false)
 }
 window.onresize=function(){
     dashboard();
