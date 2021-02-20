@@ -3,21 +3,21 @@ window.onload=function(){
     var html=document.getElementsByTagName("html")[0];
     html.style.zoom="75%";
     dashboard();
-    alert(html.style.zoom+" "+window.screen.width)
+    // alert(html.style.zoom+" "+window.screen.width)
 }
 window.onresize=function(){
     dashboard();
 }
 function dashboard(){
-    var wid=window.screen.width;
+    var wid=window.innerWidth;
     var dash=document.getElementsByClassName("dashboard")[0];
+    // console.log(window.innerWidth)
     var html=document.getElementsByTagName("html")[0];
     if(wid<=576){
         var menu=document.getElementsByClassName("menu-btn")[0];
         dash.style.width=html.offsetWidth+"px";
         menu.style.width=dash.style.width;
         dash.style.height=menu.offsetHeight+"px";
-        // console.log(dash.offsetHeight)
     }
     else{
         dash.style.height="auto";
