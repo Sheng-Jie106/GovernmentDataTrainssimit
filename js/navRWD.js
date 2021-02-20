@@ -11,7 +11,7 @@ function dashboard(){
     var wid=window.screen.width;
     var dash=document.getElementsByClassName("dashboard")[0];
     var html=document.getElementsByTagName("html")[0];
-    if(wid<576){
+    if(wid<=576){
         var menu=document.getElementsByClassName("menu-btn")[0];
         dash.style.width=html.offsetWidth+"px";
         menu.style.width=dash.style.width;
