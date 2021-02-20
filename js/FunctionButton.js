@@ -21,6 +21,7 @@ function SizeChange(obj){
                 html.style.zoom="90%";
                 break;
         }
+        dashboard();
         // var dash=document.getElementsByClassName("dashboard")[0];
         // var menu=document.getElementsByClassName("menu-btn")[0];
         // var currentZoom=parseInt(html.style.zoom); //取得改變後的zoom比例
