@@ -26,7 +26,7 @@ function dashboard(){
     if(wid<576){
         var menu=document.getElementsByClassName("menu-btn")[0];
         dash.style.width=html.offsetWidth+"px";
-        menu.style.width=dash.offsetWidth+"px";
+        menu.style.width=dash.style.width;
         dash.style.height=menu.offsetHeight+"px";
         // console.log(dash.offsetHeight)
     }
@@ -40,8 +40,9 @@ function menu(obj){
     var dash=document.getElementsByClassName("dashboard")[0];
     var menu=document.getElementsByClassName("menu-btn")[0];
     var arrow=document.getElementById("arrow");
+    var home=document.getElementById("indexHome");
     if(status==="close"){
-        dash.style.height=287+"px";
+        dash.style.height=menu.offsetHeight*7+home.offsetHeight+"px";
         arrow.style.transform="rotate(180deg)";
         obj.setAttribute("data-status","open")
     }
