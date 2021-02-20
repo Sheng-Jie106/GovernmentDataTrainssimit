@@ -40,9 +40,9 @@ function menu(obj){
     var dash=document.getElementsByClassName("dashboard")[0];
     var menu=document.getElementsByClassName("menu-btn")[0];
     var arrow=document.getElementById("arrow");
-    var home=document.getElementById("indexHome");
     if(status==="close"){
-        dash.style.height=menu.offsetHeight*7+"px";
+        var dashChil=dash.children;
+        dash.style.height=menu.offsetHeight*dashChil.length+"px";
         arrow.style.transform="rotate(180deg)";
         obj.setAttribute("data-status","open")
     }

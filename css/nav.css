@@ -40,6 +40,6 @@
     display: none;
 }
 .menu-btn img{
-    width: 1em;
+    width: 1em !important;
     margin: -0.25em 0.25em 0;
 }

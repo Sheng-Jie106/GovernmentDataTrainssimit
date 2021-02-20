@@ -40,6 +40,7 @@ a:hover, a:focus{
 }
 .tag>img{
     width: 2em;
+    transform: translate(0,-0.1em);
 }
 
 /* 小標題樣式 */

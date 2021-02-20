@@ -8,4 +8,11 @@
     .download>div:nth-child(2) a.hint{
         margin: 0.33em 1em;
     }
+    a.hint {
+        font-size: 1.33em;
+        line-height: 1.33em;
+    }
+    a.hint img {
+        transform: translate(0.83em, 0em);
+    }
 }
