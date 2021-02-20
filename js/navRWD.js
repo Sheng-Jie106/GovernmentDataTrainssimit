@@ -42,7 +42,7 @@ function menu(obj){
     var arrow=document.getElementById("arrow");
     var home=document.getElementById("indexHome");
     if(status==="close"){
-        dash.style.height=menu.offsetHeight*7+home.offsetHeight+"px";
+        dash.style.height=menu.offsetHeight*7+"px";
         arrow.style.transform="rotate(180deg)";
         obj.setAttribute("data-status","open")
     }
