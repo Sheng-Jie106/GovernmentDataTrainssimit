@@ -19,6 +19,7 @@
 #share{
     background: #e0feff;
     height: 48px;
+    width: 48px;
     box-shadow: 0 0 0.4em #80808033 inset;
     cursor: pointer;
 }
