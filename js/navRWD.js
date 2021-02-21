@@ -9,19 +9,18 @@ window.onresize=function(){
     dashboard();
 }
 function dashboard(){
-    var wid=window.innerWidth;
+    var wid=window.screen.width;
     var dash=document.getElementsByClassName("dashboard")[0];
-    // console.log(window.innerWidth)
-    var html=document.getElementsByTagName("html")[0];
-    if(wid<=576){
+    var html=document.getElementsByTagName("html")[0]; 
+    if(wid>576 || dash.style.display==="flex"){
+        dash.style.height="auto";
+        dash.style.width="auto";
+    }
+    else{
         var menu=document.getElementsByClassName("menu-btn")[0];
         dash.style.width=html.offsetWidth+"px";
         menu.style.width=dash.style.width;
         dash.style.height=menu.offsetHeight+"px";
-    }
-    else{
-        dash.style.height="auto";
-        dash.style.width="auto";
     }
 }
 function menu(obj){

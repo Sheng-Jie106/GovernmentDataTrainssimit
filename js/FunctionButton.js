@@ -22,11 +22,6 @@ function SizeChange(obj){
                 break;
         }
         dashboard();
-        // var dash=document.getElementsByClassName("dashboard")[0];
-        // var menu=document.getElementsByClassName("menu-btn")[0];
-        // var currentZoom=parseInt(html.style.zoom); //取得改變後的zoom比例
-        // dash.style.width=initZoom/currentZoom*dash.offsetWidth+"px"; //將dashboard寬度照zoom縮放比例改變
-        // menu.style.width=dash.style.width;
     }
 }
 
