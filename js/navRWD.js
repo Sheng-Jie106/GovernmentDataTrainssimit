@@ -12,7 +12,8 @@ function dashboard(){
     var wid=window.screen.width;
     var dash=document.getElementsByClassName("dashboard")[0];
     var html=document.getElementsByTagName("html")[0]; 
-    if(wid>576 || dash.style.display==="flex"){
+    // console.log() 
+    if(window.getComputedStyle(dash,null).getPropertyValue("display")==="flex"){
         dash.style.height="auto";
         dash.style.width="auto";
     }
