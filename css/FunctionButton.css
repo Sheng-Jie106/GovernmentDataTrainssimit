@@ -43,7 +43,7 @@
     border-radius: 50%;
     font-weight: 600;
     position: relative;
-    padding:0.25em 0.69em;
+    /* padding:0.25em 0.69em; */
     width: 48px;
     height: 48px;
 }
@@ -52,11 +52,16 @@
     color: #ffffff;
     box-shadow: 0 0 0.4em #80808033;
 }
+#FontSizeChange span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 #FontSizeChange sup{
     position: absolute;
     right: 20%;
-    top: 25%;
-    font-size: 50%;
+    top: 34%;
 }
 #FontSizeChange .active{
     background-color:#18b5b8 ;
