@@ -60,7 +60,7 @@
 }
 #FontSizeChange sup{
     position: absolute;
-    right: 20%;
+    right: 10%;
     top: 34%;
 }
 #FontSizeChange .active{
