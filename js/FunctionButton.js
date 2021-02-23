@@ -46,9 +46,8 @@ function getUrl(){
         };
     })(window, document, navigator);
     
-    // How to use
     Clipboard.copy(location.href);
-    // console.log(location.href)
+    alert("已複製網址 : \n"+location.href);
 }
 function SizeChange(obj){
     if(obj.className==="active"){}
