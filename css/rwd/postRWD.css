@@ -34,6 +34,11 @@
         margin-right:4% ;
     }
 }
+@media(max-width:630px){
+    .date{
+        width: 18%;
+    }
+}
 @media(max-width:576px){
     article>div{
         padding: 0.33em;
@@ -47,9 +52,6 @@
     }
 }
 @media(max-width:500px){
-    .date{
-        width: 18%;
-    }
     .post-content .date, .content-title{
         font-size: 1em;
     }
@@ -60,9 +62,6 @@
 @media(max-width:375px){
     .content{
         width: 60%;
-    }
-    .date{
-        width: 25%;
     }
 }
 @media(max-width: 310px){
